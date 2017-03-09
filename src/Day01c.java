@@ -5,6 +5,11 @@ import java.util.Scanner;
  */
 public class Day01c {
     public static void main(String[] args) {
+//        键盘输入a,b,c。求解一元二次方程组的两个解，如果无实根，输出“无实数解”，
+//        如果a为0，输出“非二次方程”，
+//        如果只有一个实数根，
+//        输出“只有一个实数根”
+
         //输入abc
         Scanner input = new Scanner(System.in);
         //请输入a
