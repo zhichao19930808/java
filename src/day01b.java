@@ -9,14 +9,12 @@ public class day01b {
         Scanner input=new Scanner(System.in);
         System.out.println("请输入x的值");
         x=input.nextDouble();
-        if (x >1||x < -1) {
+        if (x >=1||x <= -1) {
             System.out.println("y的值是0");
-        } else if (x > 0) {
+        } else if (x >= 0&&x<1) {
             System.out.println("y的值是"+(1-x));
-        } else if (x < 0) {
+        } else if (x < 0&&x>-1) {
             System.out.println("y的值是"+(x+1));
-        } else {
-            System.out.println("y的值"+1);
         }
     }
 }
