@@ -25,6 +25,11 @@ public class day02a {
         //开始计算 公式  如果a+b>c且a-c<c则三角形成立
         if (a + b > c && a - b < c) {
             System.out.println("此三角形成立");
+            //成立  球面积   海伦公式
+            Double p=(a+b+c)/2;
+            Double area=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+            //Math.sqart   用于开根号的一个类
+            System.out.print("面积为："+area);
         } else {
             System.out.print("此三角形不成立");
         }
