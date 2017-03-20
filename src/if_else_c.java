@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 //根据用户输入的月份，打印出相应的季节。
 //345春季 678 夏季 9 10 11秋季 12 1 2
-public class if_else_b {
+public class if_else_c {
     //主函数
     public static void main(String[]args) {
         Scanner input=new Scanner(System.in);
