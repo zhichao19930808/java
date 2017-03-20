@@ -18,9 +18,9 @@ public class if_else_b {
         } else if (x >= 6 && x <= 8) {
             System.out.print(x+"月份是夏季");
         } else if (x >= 9 && x <= 11) {
-            System.out.print(x + "月是秋季");
+            System.out.print(x + "月份是秋季");
         } else {
-            System.out.print(x+"月是冬季");
+            System.out.print(x+"月份是冬季");
         }
     }
 }
