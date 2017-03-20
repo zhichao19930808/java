@@ -9,7 +9,7 @@ public class if_else_b {
     //主函数
     public static void main(String[]args) {
         Scanner input=new Scanner(System.in);
-        System.out.print("请输入月份");
+        System.out.print("请您输入月份");
         byte x=input.nextByte();
         if (x > 12 || x < 1) {
             System.out.print("当前月份不存在");
