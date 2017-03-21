@@ -9,7 +9,7 @@ public class if_else_b_4 {
         Scanner input =new Scanner(System.in);
         System.out.println("请输入坏鸡蛋的数量");
         int number = input.nextInt();
-        if (number <= 5) {
+        if (number <5) {
             System.out.println("忍了");
         } else {
             System.out.println("退货");

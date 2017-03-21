@@ -15,7 +15,7 @@ public class if_else_b_6 {
             System.out.println(a);
         } else {
             System.out.println(b);
-            System.out.println(a % b);
+            System.out.println("余数是"+a % b);
         }
     }
 }
