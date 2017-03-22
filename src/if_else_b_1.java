@@ -15,7 +15,7 @@ public class if_else_b_1 {
         System.out.println("请输入java成绩");
         double java_score =input.nextDouble();
         System.out.println("请输入music成绩");
-        double music_score =input.nextByte();
+        double music_score =input.nextDouble();
         if ((java_score > 100 || java_score < 0) || (music_score > 100 || music_score < 0)) {
             System.out.println("请输入正确的成绩");
         }else if ((java_score > 98 && music_score > 80) || (java_score == 100 & music_score > 70)) {
