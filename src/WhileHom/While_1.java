@@ -19,7 +19,7 @@ public class While_1 {
             System.out.println("合格了吗？(Y/N)");
             fruit = input.next();
         }
-        System.out.println("完成任务！！！");
+        System.out.println("完成任务！！！！");
 
 }
 

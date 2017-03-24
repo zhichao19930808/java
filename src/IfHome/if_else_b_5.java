@@ -12,7 +12,7 @@ public class if_else_b_5 {
         System.out.println("请输出一个整数");
         int x = input.nextInt();
         if (x % 3 == 0 || x % 5 == 0) {
-            System.out.println("该数字是3或5的倍数");
+            System.out.println("该数字是3或者5的倍数");
         } else {
             System.out.println("该数不能被3或5中的任何一个数整除");
         }

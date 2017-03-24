@@ -20,13 +20,13 @@ public class Switch_2 {
                 System.out.println("正在呼叫爸爸....");
                 break;
             case 2 :
-                 System.out.println("正在呼叫妈妈....");
+                 System.out.println("正在呼叫妈妈...");
                  break;
             case 3 :
-                 System.out.println("正在呼叫爷爷....");
+                 System.out.println("正在呼叫爷爷...");
                  break;
             case 4 :
-                 System.out.println("正在呼叫奶奶....");
+                 System.out.println("正在呼叫奶奶...");
                  break;
             default:
                 System.out.println("还没有设置"+x+"的联系人");
