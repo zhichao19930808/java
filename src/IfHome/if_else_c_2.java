@@ -1,3 +1,5 @@
+package IfHome;
+
 import java.util.Scanner;
 
 /**

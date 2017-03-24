@@ -1,3 +1,5 @@
+package WhileHom;
+
 import java.util.Scanner;
 
 /**

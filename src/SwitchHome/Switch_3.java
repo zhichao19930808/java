@@ -1,3 +1,5 @@
+package SwitchHome;
+
 import java.util.Scanner;
 
 /**
