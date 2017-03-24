@@ -20,25 +20,10 @@ public class DoWhile_1 {
                     "请选择输入数字:");
             x = input.nextShort();
         do {
-            switch (x) {
-                case 1:
-                    System.out.print("执行客户信息管理:");
-                    break;
-                case 2:
-                    System.out.print("执行购物结算:");
-                    break;
-                case 3:
-                    System.out.print("执行真情回馈:");
-                    break;
-                case 4:
-                    System.out.print("执行注销:");
-                    break;
-                default:
-                    System.out.print("输入错误请重新输入数字:");
+            if (x > 4 || x < 1) {
+                System.out.print("输入错误请重新输入数字:");
                     x = input.nextShort();
-                    break;
             }
-
         } while (x > 4);
         switch (x) {
             case 1:

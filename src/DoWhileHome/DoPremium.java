@@ -9,15 +9,16 @@ public class DoPremium {
     //在银行存款 每年的利率为0.003，计算5年后，获得的本金
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        short x = 0;
+        //第x年
+        byte x = 1;
         System.out.println("请您输入存款金额");
-        int money = input.nextInt();
+        double money = input.nextDouble();
         System.out.println("请您输入存款期限（）年;");
-        short old = input.nextShort();
+        byte old = input.nextByte();
         do {
             money+=(0.003*money);
             x++;
-        }while (x>=old);
+        }while (x<=old);
         System.out.println(old+"年后，获得本金"+money);
     }
 
