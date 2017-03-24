@@ -10,9 +10,9 @@ public class DoPremium {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         short x = 0;
-        System.out.println("请输入存款金额");
+        System.out.println("请您输入存款金额");
         int money = input.nextInt();
-        System.out.println("请输入存款期限（）年;");
+        System.out.println("请您输入存款期限（）年;");
         short old = input.nextShort();
         do {
             money+=(0.003*money);

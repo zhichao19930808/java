@@ -10,7 +10,7 @@ public class DoCompile {
         // decision[判断]  是否重写
         boolean decision;
         do {
-            System.out.println("上机编程\n" +
+            System.out.println("上机编写程序\n" +
                     "合格了吗？ y/n");
             Scanner compile = new Scanner(System.in);
             char input = compile.next().charAt(0);

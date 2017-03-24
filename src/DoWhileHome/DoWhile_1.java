@@ -42,16 +42,16 @@ public class DoWhile_1 {
         } while (x > 4);
         switch (x) {
             case 1:
-                System.out.println("执行客户信息管理\n");
+                System.out.println("执行客户信息管理。\n");
                 break;
             case 2:
-                System.out.println("执行购物结算\n");
+                System.out.println("执行购物结算。\n");
                 break;
             case 3:
-                System.out.println("执行真情回馈\n");
+                System.out.println("执行真情回馈。\n");
                 break;
             case 4:
-                System.out.println("执行注销\n");
+                System.out.println("执行注销。\n");
                 break;
         }
         System.out.println("程序结束");

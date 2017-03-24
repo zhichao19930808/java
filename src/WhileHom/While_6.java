@@ -28,7 +28,7 @@ public class While_6 {
                 default:
                     System.out.println("请输入正确的编号");
             }
-            System.out.println("是否继续查询？（请输入“y”或“n”）");
+            System.out.println("是否继续查询？（请输入“y”或者“n”）");
              flage = input.next().charAt(0);
         }
         input.close();

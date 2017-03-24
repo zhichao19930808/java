@@ -53,7 +53,7 @@ public class While_7 {
                 default:
                     System.out.println("请输入正确的编号");
             }
-            System.out.println("您已消费"+y+"元是否继续购买？（请输入“y”或“n”）");
+            System.out.println("您已消费"+y+"元是否继续购买？（请输入“y”或者“n”）");
             shopping = input.next().charAt(0);
         }
         System.out.println("您本次消费"+y+"元\n" +
