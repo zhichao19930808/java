@@ -21,6 +21,6 @@ public class Average {
             y+=score;
         }
         average=y / 5;
-        System.out.println(average);
+        System.out.println("平均分数为"+average);
     }
 }

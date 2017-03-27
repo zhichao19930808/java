@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Created by Administrator on 2017/3/24.
  */
 public class DoPremium {
+    //premium 额外费用；奖金；保险费
     //在银行存款 每年的利率为0.003，计算5年后，获得的本金
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
