@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Administrator on 2017/3/25.
  */
-public class KaoShi_2 {
+public class Exam_3_25b {
     //一球从100米高度落下，每次落地后反跳回原高度的一半，再落下，求它在第10次的时候，反跳高度多少，反弹的高度共经过多少米？
     public static void main(String[] args) {
         double x = 100.0;
