@@ -5,9 +5,9 @@ package ContinueHome;
  */
 public class SeekTotal_1to10 {
     //continue  继续；连续；维持；持续
+    //求1~10之间的所有偶数和
     //continue 只能用在循环里；作用：跳过循环中剩余的语句而执行下一个循环。
    //seek 求 total 总数
-   //求1~10之间的所有偶数和
    public static void main(String[] args) {
        int total = 0;
        for (int x = 1;x<=10;x++) {
