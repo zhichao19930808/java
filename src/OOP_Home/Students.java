@@ -1,7 +1,7 @@
 package OOP_Home;
 
 /**
- * Created by Administrator on 2017/3/29.
+ * Created by ZhiChao on 2017/3/29.
  */
 public class Students {
     //属性
@@ -25,6 +25,16 @@ public class Students {
         zhanghao.age=20;
         zhanghao.grade=1;
         zhanghao.show();
+        System.out.println("*************************************************\n" +
+                "以下引用教师类的方法");
+        //在学生类中使用教师类的方法
+        Teacher liming = new Teacher();
+        liming.name="李明";
+        liming.course="java";
+        liming.profession="大数据云专业";
+        liming.time=10;
+        liming.show();
+
 
     }
 
