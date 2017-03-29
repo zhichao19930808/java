@@ -8,6 +8,6 @@ package OOP_Home;
     //属性
     String brand;//品牌
     public void TextCell() {
-        System.out.println("续电");
+        System.out.println("电池品牌："+brand+"\t"+"功能：续电");
     }
 }
