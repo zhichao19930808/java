@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 /**
  * Created by Administrator on 2017/4/1.
+ * 1. 从键盘上输入 4 行 4 列的一个实数矩阵到一个二维数组中,
+ * 然后求出主对角线（从左上角到右下角）上元素之和以及副对角线上元素之乘积。（20 分）
  */
 public class Exam_1 {
-   // 1. 从键盘上输入 4 行 4 列的一个实数矩阵到一个二维数组中,
-    // 然后求出主对角线（从左上角到右下角）上元素之和以及副对角线上元素之乘积。（20 分）
    public static void main(String[] args) {
        //首先输入4组数组，每组4个单位。
        double a[]= new double[4];
