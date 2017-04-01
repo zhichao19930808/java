@@ -11,8 +11,26 @@ public class Human {//定义一个类
     private int age;
     private double height;
     private double weight;
-//constructor
+
+
+    //constructor 构造方法
     //定义方法；
+    public Human(String name, char gender, int age, double height, double weight) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.height = height;
+        this.weight = weight;
+    }
+
+    public static void main(String[] args) {
+        Human lala = new Human("活人",'男',22,173,65);
+        System.out.println(lala.name);
+        System.out.println(lala.gender);
+        System.out.println(lala.age);
+        System.out.println(lala.height);
+        System.out.println(lala.weight);
+    }
     // void adj.\ 空的；无效的；无人的；没有返回值；
     public String study(int studytime) {//设置一个学习的方法。
         System.out.println(name+"学习了"+studytime+"小时。");
