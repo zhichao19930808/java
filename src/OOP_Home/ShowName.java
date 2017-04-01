@@ -26,7 +26,7 @@ public class ShowName {
         System.out.println("*****************************************************");
         System.out.println("客户姓名列表：");
         System.out.println("*****************************************************");
-        op.Array();
+//        op.Array();
     }
 
 }

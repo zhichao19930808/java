@@ -30,22 +30,22 @@ public class CustomerBiz {
             }
             return "上传失败";
     }
-    public void Array() {
-        System.out.println(Arrays.toString(id));
-    }
-    public String rename(String oldname,String newname) {
-        for (int j = 0; j<i;j++) {
-            if (id[j] == oldname) {
-                id[j] = newname;
-            } else {
-                return "查无此人";
-            }
-
-            for (int k=0;k<i;k++) {
-                if (id[k] == newname) {
-                    return "成功将"+"替换为";
-                }
-            }
-        }
-    }
+//    public void Array() {
+//        System.out.println(Arrays.toString(id));
+//    }
+//    public String rename(String oldname,String newname) {
+//        for (int j = 0; j<i;j++) {
+//            if (id[j] == oldname) {
+//                id[j] = newname;
+//            } else {
+//                return "查无此人";
+//            }
+//
+//            for (int k=0;k<i;k++) {
+//                if (id[k] == newname) {
+//                    return "成功将"+"替换为";
+//                }
+//            }
+//        }
+//    }
 }
