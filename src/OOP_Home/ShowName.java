@@ -14,7 +14,7 @@ public class ShowName {
             System.out.print("请输入第"+i+"位客户的信息：");
             String o = id.next();
             op.name=o;
-            op.addName(op.name);
+            System.out.println(op.addName(op.name));;//打印出op的行为，以及返回值。
             System.out.print("继续输入吗？（是/否）");
             char yes =id.next().charAt(0);
             if (yes == '是') {
