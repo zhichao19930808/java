@@ -8,12 +8,22 @@ import java.util.Scanner;
  */
 public class Exam_1 {
    public static void main(String[] args) {
+//       double a[][]=new double[4][];
+//       Scanner input=new Scanner(System.in);
+//       for (int i=0;i<4;i++) {
+//           for (int j=0;j<4;j++) {
+//               System.out.println("请为第"+(i+1)+"组数组的第"+(j+1)+"个数赋值");
+//          double one = input.nextDouble();
+//               a[i][j]=one;
+//           }
+//       }
+//       System.out.println(Arrays.toString(a));
        //首先输入4组数组，每组4个单位。
        double a[]= new double[4];
        double b[]= new double[4];
        double c[]= new double[4];
        double d[]= new double[4];
-       //为数组内的数赋值
+      // 为数组内的数赋值
        Scanner input =new Scanner(System.in);
        System.out.println("********************************************************");
        for (int i=0;i<4;i++) {
